@@ -30,7 +30,7 @@ console.log(five, ten);
 Create the execution context diagram of the following code line by line.
 
 ```js
-let marks = [34, 45, 56, 76];
+let marks = [35, 45, 56, 76];
 function multiplyArrayByN(arr, n) {
   let finalArr = [];
   for (let elm of arr) {
