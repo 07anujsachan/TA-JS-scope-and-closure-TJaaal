@@ -1,7 +1,7 @@
 Find the output of the code snippets below:
 
 ```js
-console.log(numA + numB); //OUTPUT
+console.log(numA + numB); //NAN
 var numA = 21,
   numB = 30;
 ```
@@ -9,7 +9,7 @@ var numA = 21,
 Find the output of the code snippets below:
 
 ```js
-console.log(numA + numB); //OUTPUT
+console.log(numA + numB); //numA 
 let numA = 21,
   numB = 30;
 ```
