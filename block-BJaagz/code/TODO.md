@@ -6,7 +6,7 @@
 
 ```js
 function forEach() {}
-
+ arr.reduce((acc, cb) => { }) 
 forEach(['Sam', 'Jon', 'Arya'], (name, i, arr) =>
   console.log(name + name, i, arr)
 );
