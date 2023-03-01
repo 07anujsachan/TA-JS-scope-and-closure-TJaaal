@@ -10,8 +10,10 @@
 **You can use normal for loop for this function**
 
 ```js
-function loop() {
-  // Your code goes here
+function loop( n , action) {
+  for(let i = 0 ;  i < n ; i ++){
+    action(i)
+  }
 }
 
 loop(
