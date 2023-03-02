@@ -3,8 +3,10 @@
 1. Write a function called `multiplyBy` that takes a `number` as an argument and returns a function. Returned function takes another `number` as an argument and returns the multiplication of both the numbers.
 
 ```js
-function multiplyBy(num){
-   return function 
+function multiplyBy(num1){
+   return function (num2){
+    return num1 * num2 
+   }
 }
 
 const double = multiplyBy(2);
@@ -15,7 +17,11 @@ const final = double(15); // final should be 30
 
 ```js
 // Your code goes here
-
+ function fullName ( `firstName`){
+  return function(`lastName`){
+    return ${firstName} ${lastName}
+  }
+ }
 const name = fullName('Will');
 const final = name('Smith'); // final should be "Will Smith"
 ```
@@ -24,7 +30,13 @@ const final = name('Smith'); // final should be "Will Smith"
 
 ```js
 function isInBetween(a, b) {
-  // your code goes here
+  return function (){
+    if(a < b && a>b){
+      return true 
+    }else{
+      return false
+    }
+  }
 }
 
 const isChild = isInBetween(10, 100);
