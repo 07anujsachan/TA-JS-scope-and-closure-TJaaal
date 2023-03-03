@@ -58,7 +58,9 @@ function sayHello(name) {
 }
 
 let message = sayHello(username);
-var nextMessage = sayHello('Test');
+var nextMessage = sayHello('Test'); // username
+
+
 ```
 
 <!-- Answer -->
