@@ -20,8 +20,9 @@ console.log(
 
 ```js
 function union(...arrays) {
-  return arrays.reduce((a,b )=> a.filter((value => b.includes(value))))
-}
+  return arrays.reduce((acc,cv)=>{acc = acc.filter(elm => !cv.includes(elm)).concat(cv)
+   return acc
+})}
 
 // Test
 console.log(
