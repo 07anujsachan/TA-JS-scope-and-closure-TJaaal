@@ -2,8 +2,12 @@
 
 ```js
 function once(cb) {
+  let isCalled = false
   return function(){
-    
+   if( !isCalled){
+    cb;
+   isCalled = true
+}
   }
 }
 
